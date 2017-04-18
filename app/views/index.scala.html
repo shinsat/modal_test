@@ -24,12 +24,14 @@
  <button type="button" class="btn btn-primary btn-lg" data-target="#myModal2" data-toggle="modal">
  Launch demo modal
 </button>
+<span type="hidden" name="test_aaa" id="test_aaa" value=""/>
+
  @modal1()
  @modal2()
 <!-- Modal -->
 
  <script>
   var str = ["abc", "defg", "hij"];
-
+ document.getElementById('test_aaa').value = str;
  </script>
 }
